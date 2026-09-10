@@ -1,0 +1,32 @@
+# Build artifacts
+build/
+*.bin
+*.o
+*.a
+*.dylib
+*.so
+.cache/
+my_index.bin
+
+# CMake artifacts
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+compile_commands.json
+
+# Data and Benchmarks
+data/sample_corpus.jsonl
+temp_subset.jsonl
+*.csv
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# OS and IDE
+.DS_Store
+.idea/
+.vscode/
+venv/
